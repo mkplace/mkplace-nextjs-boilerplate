@@ -11,10 +11,7 @@ const DefaultLayout: React.FC = ({ children }) => {
     const checkout = useCheckout()
 
     return (
-        <div style={{
-            fontFamily: "'Ubuntu', sans-serif",
-            // width: `${checkout.isOpen ? '95%' : '100%'}`, margin: 'auto' 
-        }}>
+        <div>
             <Header></Header>
             {children}
             <Footer></Footer>
